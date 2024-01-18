@@ -1,3 +1,9 @@
+import { HoverImageLinks } from "@/components/HoverImageLinks";
+
 export default function Home() {
-  return <div>asd</div>;
+  return (
+    <main>
+      <HoverImageLinks />
+    </main>
+  );
 }
